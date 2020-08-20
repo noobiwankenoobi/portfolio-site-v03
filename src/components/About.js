@@ -4,19 +4,22 @@ import { BsArrowDownShort } from "react-icons/bs";
 
 const About = () => {
   const AboutJSX = (
-    <div className="landing-section bg-gray-900 flex flex-col justify-center items-center md:h-screen md:w-screen text-gray-100 ">
+    <div className="landing-section bg-gray-100 flex flex-col justify-center items-center md:h-screen md:w-screen text-gray-800 text-center">
       <div className="flex flex-col justify-center items-center mx-auto my-auto">
-        <h1 className="text-5xl tracking-widest">
-          <span className="text-cyberdesatturq">ROSS</span> HAZELETT
-        </h1>
-        <h1 className="text-3xl tracking-widest">
-          web <span className="text-cyberburnorange">developer</span>
-        </h1>
+        <p className="text-3xl tracking-wide">
+          my name is
+          <span className="text-cyberburnorange"> ross hazelett</span>
+        </p>
 
-        <h1 className="flex tracking-wider justify-center items-center text-xl md:mt-6 ">
-          or keep scrolling
-          <BsArrowDownShort className="animate-bounce text-cyberdesatturq" />
-        </h1>
+        <p className="text-gray-800 text-2xl tracking-wide">
+          this is version two point oh of my portfolio
+        </p>
+
+        <p className="flex tracking-wide justify-center items-center text-lg md:mt-6 ">
+          i am hoping you'll offer me a job so that i<br /> don't have to make
+          version three
+        </p>
+        <BsArrowDownShort className="animate-bounce text-cyberburnorange mt-4" />
       </div>
     </div>
   );

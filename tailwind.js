@@ -13,6 +13,8 @@ module.exports = {
     },
     colors: {
       // CUSTOM COLORS
+
+      // Cyber
       cyberhotpink: "#FE0651",
       cyberfont: "#C6EDE8",
       cyberorange: "#FC9B0B",
@@ -23,6 +25,12 @@ module.exports = {
       cyberlightblue: "#53BCDC",
       cyberburnorange: "#C74F50",
       cyberdesatturq: "#81BFAD",
+      // Summer from Coolors
+      summerblue: "0081A7",
+      summergreen: "00AFB9",
+      summerlight: "FDFCDC",
+      summerbeige: "FED9B7",
+      summersalmon: "F07167",
 
       transparent: "transparent",
       current: "currentColor",
