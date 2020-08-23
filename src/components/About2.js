@@ -1,12 +1,15 @@
 import React from "react";
 
 const About2 = () => {
+  //////////////
+  // ABOUT 2 //
+  ////////////////////
   const About2JSX = (
     <div className="full-page flex justify-center items-center w-screen h-screen text-left bg-gray-100">
       <div className="main flex flex-row justify-center items-center w-4/5 h-full ">
         <div className="w-1/2 h-full flex justify-center items-center">
           <div className="flex flex-col w-full">
-            <p className="text-4xl text-gray-900 font-bold tracking-tight ">
+            <p className="text-4xl text-gray-900 font-semibold tracking-tight ">
               I decided to get serious.
             </p>
             <p className="text-xl text-gray-900 mt-4 text-opacity-75">
@@ -16,7 +19,7 @@ const About2 = () => {
             <p className="text-xl text-gray-900 mt-4 text-opacity-75">
               I fell in love with coding and made a career switch.
             </p>
-            <p className="text-2xl tracking-tight text-gray-900 font-bold mt-8">
+            <p className="text-2xl tracking-tight text-gray-900 font-semibold mt-8">
               Coding is my redemption arc.
             </p>
           </div>

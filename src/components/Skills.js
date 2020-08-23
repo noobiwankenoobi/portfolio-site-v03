@@ -1,6 +1,9 @@
 import React from "react";
 
 const Skills = () => {
+  ////////////////
+  // ICONS JSX //
+  /////////////////////
   const IconsGoodJSX = (
     <>
       <div className="skill-icon h-24 w-20 border border-solid border-gray-600"></div>
@@ -24,6 +27,9 @@ const Skills = () => {
     </>
   );
 
+  /////////////////
+  // SKILLS JSX //
+  /////////////////////
   const SkillsJSX = (
     <div className="full-page flex justify-center items-center w-screen h-screen text-left p-12 bg-gray-100">
       <div className="flex justify-center items-center w-full h-full border border-gray-800 border-solid rounded-lg">

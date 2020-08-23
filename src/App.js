@@ -5,8 +5,6 @@ import About2 from "./components/About2";
 import Goals from "./components/Goals";
 import Skills from "./components/Skills";
 
-// import './App.css';
-
 function App() {
   return (
     <div className="App flex flex-col h-auto w-screen">

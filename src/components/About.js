@@ -3,12 +3,18 @@ import React from "react";
 import { BsArrowDownShort } from "react-icons/bs";
 
 const About = () => {
+  ////////////////
+  // ABOUT JSX //
+  ////////////////////
   const AboutJSX = (
     <div className="landing-section bg-gray-100 flex flex-col justify-center items-center md:h-screen md:w-screen text-gray-800 text-center">
       <div className="flex flex-col justify-center items-center mx-auto my-auto">
-        <p className="text-4xl tracking-tight">
+        <p className="text-4xl tracking-tight font-semibold ">
           my name is
-          <span className="text-cyberburnorange"> ross hazelett</span>
+          <span className="text-cyberburnorange tracking-tight font-semibold">
+            {" "}
+            ross hazelett
+          </span>
         </p>
 
         <p className="text-gray-800 text-2xl tracking-wide">
