@@ -6,7 +6,7 @@ const About = () => {
   const AboutJSX = (
     <div className="landing-section bg-gray-100 flex flex-col justify-center items-center md:h-screen md:w-screen text-gray-800 text-center">
       <div className="flex flex-col justify-center items-center mx-auto my-auto">
-        <p className="text-3xl tracking-wide">
+        <p className="text-4xl tracking-tight">
           my name is
           <span className="text-cyberburnorange"> ross hazelett</span>
         </p>

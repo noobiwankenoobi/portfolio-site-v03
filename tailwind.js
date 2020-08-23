@@ -26,11 +26,17 @@ module.exports = {
       cyberburnorange: "#C74F50",
       cyberdesatturq: "#81BFAD",
       // Summer from Coolors
-      summerblue: "0081A7",
-      summergreen: "00AFB9",
-      summerlight: "FDFCDC",
-      summerbeige: "FED9B7",
-      summersalmon: "F07167",
+      summerblue: "#0081A7",
+      summergreen: "#00AFB9",
+      summerlight: "#FDFCDC",
+      summerbeige: "#FED9B7",
+      summersalmon: "#F07167",
+      // Sunset Desat
+      sunsetdesat1: "#f7b267",
+      sunsetdesat2: "#f79d65",
+      sunsetdesat3: "#f4845f",
+      sunsetdesat4: "#f27059",
+      sunsetdesat5: "#f25c54",
 
       transparent: "transparent",
       current: "currentColor",
@@ -172,6 +178,9 @@ module.exports = {
     },
     backgroundColor: (theme) => theme("colors"),
     backgroundImage: {
+      // CUSTOM
+      vegeta:
+        "url('https://64.media.tumblr.com/16d8269489d6c0a1da9575850a07acbb/tumblr_ngpriiKzC71u0ulquo1_400.gifv')",
       "gradient-to-t": "linear-gradient(to top, var(--gradient-color-stops))",
       "gradient-to-tr":
         "linear-gradient(to top right, var(--gradient-color-stops))",
