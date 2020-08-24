@@ -280,6 +280,7 @@ module.exports = {
       default: "1",
     },
     fontFamily: {
+      teko: ["Teko, sans-serif"],
       sans: [
         "system-ui",
         "-apple-system",

@@ -59,11 +59,11 @@ const Skills = () => {
       <div className="flex justify-center items-center w-full h-full border border-gray-800 border-solid rounded-lg p-12">
         <div className="flex flex-col w-1/3 h-auto bg-gray-800 justify-center p-16 rounded-lg ">
           <p className="text-2xl text-gray-500 tracking-wide mt-6 ">03.</p>
-          <p className="text-4xl text-gray-100 font-bold tracking-tight text-left">
+          <p className="text-6xl text-gray-100 tracking-normal font-normal text-left font-teko">
             SKILLS
           </p>
 
-          <p className="text-2xl text-gray-500 tracking-wide mt-4">
+          <p className="text-xl text-gray-500 tracking-wide mt-2">
             My frustration with the disorganization and unnecessary complexity
             of the internet drives my empathetic user experience design process
             — I believe that if someone can't figure something out, or find what

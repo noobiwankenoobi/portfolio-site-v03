@@ -9,10 +9,10 @@ const About2 = () => {
       <div className="flex justify-center items-center w-full h-full border border-gray-800 border-solid rounded-lg p-12">
         <div className="flex flex-col w-1/3 h-auto bg-gray-800 justify-center p-16 rounded-lg ">
           <p className="text-2xl text-gray-500 tracking-wide mt-6 ">01.</p>
-          <p className="text-4xl text-gray-100 font-bold tracking-tight text-left">
+          <p className="text-6xl text-gray-100 font-teko font-normal tracking-normal text-left">
             ABOUT ME
           </p>
-          <p className="text-3xl text-gray-100 font-semibold tracking-tight mt-8 ">
+          <p className="text-3xl text-gray-100 font-semibold tracking-tight mt-2">
             I finally decided to get serious.
           </p>
 
