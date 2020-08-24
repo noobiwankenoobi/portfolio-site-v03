@@ -9,7 +9,7 @@ const About2 = () => {
       <div className="flex justify-center items-center w-full h-full border border-gray-800 border-solid rounded-lg p-12">
         <div className="flex flex-col w-1/3 h-auto bg-gray-800 justify-center p-16 rounded-lg ">
           <p className="text-2xl text-gray-500 tracking-wide mt-6 ">01.</p>
-          <p className="text-6xl text-gray-100 font-teko font-normal tracking-normal text-left">
+          <p className="text-6xl text-gray-100 font-teko font-medium tracking-normal text-left">
             ABOUT ME
           </p>
           <p className="text-3xl text-gray-100 font-semibold tracking-tight mt-2">
@@ -26,7 +26,7 @@ const About2 = () => {
             Coding is my redemption arc.
           </p>
         </div>
-        <div className="w-2/3 h-full flex justify-center items-center p-12">
+        <div className="w-2/3 h-full flex justify-center items-center pl-12">
           <div className="flex flex-col space-y-6 w-full items-center justify-center">
             <img
               className="w-full object-cover rounded-lg shadow-md"

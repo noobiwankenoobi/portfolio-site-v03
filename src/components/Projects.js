@@ -3,10 +3,10 @@ import React from "react";
 const Projects = () => {
   const ProjectCardsJSX1 = (
     <>
-      <div className="SOCIAL_MEDIA_CLONE flex h-64 w-full rounded transition duration-500 ease-in-out transform hover:scale-105 cursor-pointer shadow-md">
+      <div className="SOCIAL_MEDIA_CLONE flex h-64 w-full rounded transition duration-500 ease-in-out transform hover:scale-105 cursor-pointer shadow-lg">
         <div className="flex justify-start items-center w-full h-full ">
           <div className="flex items-center p-4 flex-col justify-center w-2/5 h-full bg-gray-800 leading-10 rounded-l border-l border-t border-b border-gray-800 ">
-            <p className="font-teko text-gray-100 font-normal tracking-tight text-5xl ">
+            <p className="font-teko text-gray-100 font-light tracking-tight text-5xl ">
               SOCIAL
               <br />
               MEDIA <br />
@@ -17,20 +17,21 @@ const Projects = () => {
         </div>
       </div>
 
-      <div className="VISUALIZE_PATHFINDER flex h-64 w-full border border-gray-600 border-solid rounded transition duration-500 ease-in-out transform hover:scale-105 cursor-pointer">
+      <div className="VISUALIZE_PATHFINDER flex h-64 w-full border border-gray-600 border-solid rounded transition duration-500 ease-in-out transform hover:scale-105 cursor-pointer shadow-lg">
         <div className=" flex justify-center items-center w-full h-full ">
           <div className="flex items-center flex-col justify-center w-2/5 h-full bg-gray-800 mr-auto p-4 leading-10">
-            <p className="font-teko text-gray-100 font-normal tracking-tight text-5xl m-auto absolute">
+            <p className="font-teko text-gray-100 font-light tracking-tight text-5xl m-auto absolute">
               VISUALIZE
               <br /> PATHFINDER
             </p>
           </div>
         </div>
       </div>
-      <div className="POKEDEX flex h-64 w-full border border-gray-600 border-solid rounded transition duration-500 ease-in-out transform hover:scale-105 cursor-pointer">
+
+      <div className="POKEDEX flex h-64 w-full border border-gray-600 border-solid rounded transition duration-500 ease-in-out transform hover:scale-105 cursor-pointer shadow-lg">
         <div className=" flex justify-center items-center w-full h-full ">
           <div className="flex items-center flex-col justify-center w-2/5 h-full bg-gray-800 mr-auto p-4 leading-10">
-            <p className="font-teko text-gray-100 font-normal tracking-tight text-5xl m-auto absolute">
+            <p className="font-teko text-gray-100 font-light tracking-tight text-5xl m-auto absolute">
               POKÉDEX
             </p>
           </div>
@@ -41,20 +42,21 @@ const Projects = () => {
 
   const ProjectCardsJSX2 = (
     <>
-      <div className="REACT_TAC_TAO flex h-64 w-full border border-gray-600 border-solid rounded transition duration-500 ease-in-out transform hover:scale-105 cursor-pointer">
+      <div className="REACT_TAC_TAO flex h-64 w-full border border-gray-600 border-solid rounded transition duration-500 ease-in-out transform hover:scale-105 cursor-pointer shadow-lg">
         <div className=" flex justify-center items-center w-full h-full ">
           <div className="flex items-center flex-col justify-center w-2/5 h-full bg-gray-800 mr-auto p-6 leading-10">
-            <p className="font-teko text-gray-100 font-normal tracking-tight text-5xl m-auto ">
+            <p className="font-teko text-gray-100 font-light tracking-tight text-5xl m-auto ">
               REACT
               <br /> TAC-TOE
             </p>
           </div>
         </div>
       </div>
-      <div className="FACE_DETECT flex h-64 w-full border border-gray-600 border-solid rounded transition duration-500 ease-in-out transform hover:scale-105 cursor-pointer">
+
+      <div className="FACE_DETECT flex h-64 w-full border border-gray-600 border-solid rounded transition duration-500 ease-in-out transform hover:scale-105 cursor-pointer shadow-lg">
         <div className=" flex justify-center items-center w-full h-full ">
           <div className="flex items-center flex-col justify-center w-2/5 h-full bg-gray-800 mr-auto p-6 leading-10">
-            <p className="font-teko text-gray-100 font-normal tracking-tight text-5xl m-auto ">
+            <p className="font-teko text-gray-100 font-light tracking-tight text-5xl m-auto ">
               BROWSER
               <br /> FACE
               <br /> DETECTION
@@ -62,10 +64,10 @@ const Projects = () => {
           </div>
         </div>
       </div>
-      <div className="CURIO_COFFEE flex h-64 min-w-full  border border-gray-600 border-solid rounded transition duration-500 ease-in-out transform hover:scale-105 cursor-pointer">
+      <div className="CURIO_COFFEE flex h-64 min-w-full  border border-gray-600 border-solid rounded transition duration-500 ease-in-out transform hover:scale-105 cursor-pointer shadow-lg">
         <div className=" flex justify-center items-center w-full h-full leading-10">
           <div className="flex items-center flex-col justify-center w-2/5 h-full bg-gray-800 mr-auto p-6">
-            <p className="font-teko text-gray-100 font-normal tracking-tight text-5xl m-auto ">
+            <p className="font-teko text-gray-100 font-light tracking-tight text-5xl m-auto ">
               CURIO
               <br /> COFFEE
               <br /> WEBSITE
@@ -80,9 +82,9 @@ const Projects = () => {
   // PROJECT TITLE BOX //
   ////////////////////////////////
   const ProjectTitleBoxJSX = (
-    <div className="PROJECT_TITLE flex flex-col w-full h-auto bg-gray-800 justify-center p-16 rounded-lg  ">
+    <div className="PROJECT_TITLE flex flex-col w-full h-auto bg-gray-800 justify-center p-16 rounded-lg shadow-lg ">
       <p className="text-2xl text-gray-500 tracking-wide w-4/5">04.</p>
-      <p className="text-6xl text-gray-100 font-normal tracking-normal text-left font-teko">
+      <p className="text-6xl text-gray-100 font-medium tracking-normal text-left font-teko">
         PROJECTS
       </p>
       <p className="text-xl text-gray-500 tracking-wide mt-2 ">

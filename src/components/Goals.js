@@ -6,7 +6,7 @@ const Goals = () => {
   ////////////////////
   const GoalsJSX = (
     <>
-      <div className="full-page flex justify-center items-center w-screen h-screen text-left p-12 bg-gray-100">
+      <div className="full-page flex justify-center items-center w-screen h-screen text-left p-12 bg-gray-100 shadow-lg">
         <div className="main flex flex-row justify-center items-center w-full h-full p-12 absolute">
           <div className="h-full w-full bg-gray-100 bg-opacity-50 rounded-lg"></div>
         </div>
@@ -15,7 +15,7 @@ const Goals = () => {
           <div className="w-full h-auto flex justify-start items-center">
             <div className="flex flex-col  h-full bg-gray-900 p-12 rounded-lg bg-opacity-75 justify-center w-1/3 z-10">
               <p className="text-2xl text-gray-500 tracking-wide mt-6 ">02.</p>
-              <p className="text-6xl text-gray-100 font-normal font-teko tracking-normal text-left">
+              <p className="text-6xl text-gray-100 font-medium font-teko tracking-normal text-left">
                 GOALS
               </p>
               <p className="text-xl text-gray-300 mt-2 text-opacity-100 leading-8 ">

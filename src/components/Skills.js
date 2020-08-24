@@ -55,11 +55,11 @@ const Skills = () => {
   // SKILLS JSX //
   /////////////////////
   const SkillsJSX = (
-    <div className="full-page flex justify-center items-center w-screen h-screen text-left p-12 bg-gray-100">
+    <div className="full-page flex justify-center items-center w-screen h-screen text-left p-12 bg-gray-100 shadow-2xl">
       <div className="flex justify-center items-center w-full h-full border border-gray-800 border-solid rounded-lg p-12">
         <div className="flex flex-col w-1/3 h-auto bg-gray-800 justify-center p-16 rounded-lg ">
           <p className="text-2xl text-gray-500 tracking-wide mt-6 ">03.</p>
-          <p className="text-6xl text-gray-100 tracking-normal font-normal text-left font-teko">
+          <p className="text-6xl text-gray-100 tracking-normal font-medium text-left font-teko">
             SKILLS
           </p>
 

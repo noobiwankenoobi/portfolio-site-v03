@@ -22,8 +22,8 @@ const About = () => {
         </p>
 
         <p className="flex tracking-wide justify-center items-center text-lg md:mt-6 ">
-          i am hoping you'll offer me a job so that i<br /> don't have to make
-          version three
+          When you offer me a job I will
+          <br /> no longer have to make version three
         </p>
         <BsArrowDownShort className="animate-bounce text-cyberburnorange mt-4" />
       </div>
