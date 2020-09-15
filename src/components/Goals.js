@@ -18,17 +18,13 @@ const Goals = () => {
               <p className="text-6xl text-gray-100 font-medium font-teko tracking-normal text-left">
                 GOALS
               </p>
-              <p className="text-xl text-gray-300 mt-2 text-opacity-100 leading-8 ">
-                My strengths are probably React and UX.
+              <p className="text-xl text-gray-300 mt-4 text-opacity-100 leading-8 ">
+                1. Be able to architect and build any project with any
+                technology necessary <br /> without friction or loss of quality.
               </p>
               <p className="text-xl text-gray-300 mt-4 text-opacity-100 leading-8 ">
-                But my main goal is to be able to architect and build any
-                project with any technology necessary <br /> without friction or
-                loss of quality.
-              </p>
-              <p className="text-2xl font-bold tracking-tight text-left mt-6 text-gray-200 mb-8">
-                I want a power level of
-                <br /> 9000 and I am charging towards it.
+                2. Reach a power level of 9000 <br /> through hard work and
+                constant learning.
               </p>
             </div>
           </div>

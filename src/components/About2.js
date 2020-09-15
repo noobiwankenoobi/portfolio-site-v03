@@ -13,7 +13,7 @@ const About2 = () => {
             ABOUT ME
           </p>
           <p className="text-3xl text-gray-100 font-semibold tracking-tight mt-2">
-            I finally decided to get serious.
+            I decided to get serious...
           </p>
 
           <p className="text-xl text-gray-100 mt-4 text-opacity-75">
