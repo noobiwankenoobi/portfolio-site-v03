@@ -17,9 +17,9 @@ const About2 = () => {
           </p>
 
           <p className="text-xl text-gray-100 mt-4 text-opacity-75">
-            I dabbled at being a professional illustrator in my 20s. But I
-            didn't truly know what I wanted to do until a year ago. I fell in
-            love with coding and made a career switch.
+            I explored being a professional illustrator and muscian in my 20s.
+            But I didn't truly know what I wanted to do until a year ago. I fell
+            in love with coding and made a career switch.
           </p>
 
           <p className="text-2xl tracking-tight text-gray-100 font-semibold mt-8 mb-8">
